@@ -1,0 +1,12 @@
+<suite name="Batch Running" preserve-order="true">
+	<test name="Functional Tests">
+		<groups>
+			<run>
+				<include name="QC At a Glance" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.queenscollege.tests.TestExecutor" />
+		</classes>
+	</test>
+</suite>
